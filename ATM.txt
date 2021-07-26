@@ -1,0 +1,67 @@
+ATM MACHINE
+ACTIVITY 1
+ask the username
+ask the password
+if it is correct, we proceed.
+if it is not correct; print( Invalid entry) and ask to make entries again
+
+ACTIVITY 2
+welcome salute using username
+
+ACTIVITY 3
+what do you want to do: withdraw; deposit; check balance; transfer
+
+
+ACTIVITY 4
+if it is withdraw;
+1000; 2000; 5000; 10000; others
+if others;
+how much do you want to withdraw
+print( take your cash)
+ask whether the user wants to do something else
+if yes he starts from activity 3 again
+ACTIVITY 4A
+if no; salutes(thank you for banking with us. stay safe please!)
+
+
+ACTIVITY 6
+if it is to deposit;
+ask of the account to deposit into
+select user's account or other user's account
+if user's account, proceed
+ACTIVITY 6A
+ask which denominators the user came with (it must be either 500 or 1000)
+how much do you want to pay in?
+print (you have successfully deposited ** amount into *THE GIVEN* account. thnak you for banking with us!)
+ask whether the user wants to do something else
+if yes, he starts from activity 3 again
+if no, do ACTIVITY 4A
+
+ACTIVITY 6B
+if other user's account,input account number and bank.
+ACTIVITY 6B1
+if account number and name tally with the ones in our repository,print out the name
+Then continue as in activity 6A
+if it does not, print user does not exist; a correct entry should be made by repeating activity 6B above
+
+
+ACTIVITY 7
+if it is to check balance;
+print the sum in user's account.
+ask whether he wants to do something else
+if yes, he repeats ACTIVITY 3
+if no, do ACTIVITY 4A
+
+
+ACTIVITY 8
+if it is to transfer money
+ask how much he wants to transfer
+if ampount is less than or equal to account balance, we proceed
+do ACTIVITY 6B
+
+if amount is greater than account balance
+print(insufficient balance. pleaase try again)
+and then repeat ACTIVITY 8
+
+prin
+he should
